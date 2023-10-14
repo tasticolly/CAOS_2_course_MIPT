@@ -1,0 +1,33 @@
+#!/usr/bin/env bash
+path=$(find $(echo $MANPATH | sed 's/:/ /g') -name "man3")
+fail="---"
+find_man_file() {
+
+    file=$(find $path -name "$1.*")
+    if [ -f "$file" ]; then 
+        extract_libname "$file" && return 0
+    fi
+    echo $fail
+}
+
+
+extract_libname() {
+lib=$(zgrep -Eo "#include <.*>" $1 | sed "s/#include <//g" | sed "s/>//g" | head -1)
+
+echo "$lib"
+}
+
+
+while read function
+do
+find_man_file "$function"
+done
+
+
+
+
+
+
+
+
+

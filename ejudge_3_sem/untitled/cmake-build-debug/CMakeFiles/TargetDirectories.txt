@@ -1,0 +1,3 @@
+/home/admin1/MIPT/CAOS/ejudge/untitled/cmake-build-debug/CMakeFiles/untitled.dir
+/home/admin1/MIPT/CAOS/ejudge/untitled/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/admin1/MIPT/CAOS/ejudge/untitled/cmake-build-debug/CMakeFiles/rebuild_cache.dir

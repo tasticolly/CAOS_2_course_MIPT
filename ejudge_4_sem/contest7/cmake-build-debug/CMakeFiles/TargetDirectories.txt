@@ -1,0 +1,3 @@
+/home/admin1/mount_admin/MIPT/CAOS/egudje_4_semestr/contest7/cmake-build-debug/CMakeFiles/contest7.dir
+/home/admin1/mount_admin/MIPT/CAOS/egudje_4_semestr/contest7/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/admin1/mount_admin/MIPT/CAOS/egudje_4_semestr/contest7/cmake-build-debug/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,16 @@
+sum:
+.LFB0:
+	.cfi_startproc
+	endbr64
+	movl	%edi, %eax
+	movl	$0, %ecx
+	jmp	.L2
+.L3:
+	movslq	%ecx, %rdi
+	addl	(%rdx,%rdi,4), %eax
+	addl	$1, %ecx
+.L2:
+	cmpl	%esi, %ecx
+	jl	.L3
+	ret
+	.cfi_endproc
